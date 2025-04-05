@@ -1,0 +1,258 @@
+body{
+    background: linear-gradient(360deg, rgb(37, 3, 3), #6d1309, #1d0303);
+    background-color: rgb(79, 7, 0);
+    
+}
+
+.ajuste-tr{
+    height: 15px;
+}
+ 
+.fonteaoboshi {
+    font-family: "Aoboshi One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fontejaro {
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+
+
+table{
+    width: 100%; height: 100vh;
+    border-collapse: collapse;
+}
+
+
+.nome{
+    color: white;
+    font-family: "Aoboshi One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    margin-left: 20;
+    width: 0;
+}
+.nome a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.ajuste{
+    width: 18%;
+}
+
+.espacamento{
+    width: 10%;
+}
+
+.jaro{
+    width: 200px;
+    font-size: 20px; color: white;
+    text-align: center;
+    margin-right: 10px;
+    font-family: "Jaro", sans-serif;
+}
+
+.jaro a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.jaro a:hover {
+    background-color: gray    ;
+
+}
+
+.promocao{
+    color: white;
+    font-family: "Aoboshi One", serif;
+    font-style: normal;
+    font-size: 25px;
+    width: 350px; height: 1px;
+    text-align: center;
+    margin-bottom: -10px;
+    padding-top: 20px;
+    
+}
+
+.destaques{
+    height: 100px;
+    width: 500px;
+    text-align: center; color: white;
+    font-size: 60px;
+    font-family: "Aoboshi One", serif;
+}
+
+.nome5{
+    color: white;
+    height: 10%;
+}
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+
+.produto1 {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    margin-right: 40px;
+    margin-left: 50px;
+}
+.produto2 {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-left: 50px;
+}
+.produto3 {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-left: 100px; 
+}
+
+.produto1:hover {   
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+.produto2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+.produto3:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.produto1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.produto2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.produto3 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.produto1 {
+    background: white;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.produto2 {
+    background: white;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.produto3 {
+    background: white;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+.produto1:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+.produto2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+.produto3:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.fundo-produtos {
+    background: white;
+    padding: 35px;
+    width: 1000%;
+    max-width: 1000px; 
+    margin: auto; 
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    
+   
+}
+.nome{
+    color: white;
+    font-family: "Aoboshi One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    margin-left: 20;
+    width: 0;
+}
+.nome a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer {
+    font-family: "Jaini Purva", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+#ajstimg {
+    height: 50px;
+    text-align: left; 
+    align-items: left
+}
